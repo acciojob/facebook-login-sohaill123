@@ -15,7 +15,7 @@
   // Check styling
   cy.get("form")
     .invoke('css', 'background-color')
-    .should("eq", "rgb(255, 255, 255)")
+    .should("eq", "rgba(255, 255, 255, 1)") // or "rgb(255, 255, 255)"
     .and("have.css", "border-radius", "5px")
     .and("have.css", "box-shadow", "rgba(204, 204, 204, 0.5) 0px 0px 10px 0px");
 
