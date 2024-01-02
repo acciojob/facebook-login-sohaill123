@@ -31,11 +31,15 @@
     }
 
     form {
-      display: flex;
-      flex-direction: column;
-		 background-color: rgb(255, 255, 255);
-      gap: 10px;
-    }
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(255, 255, 255); /* Updated background color */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+}
+
 
     input {
       border: 1px solid #ccc;
