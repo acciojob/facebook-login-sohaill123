@@ -1,4 +1,3 @@
-//your JS code here. If required.
 () => {
   // Check Facebook logo and description
   cy.get(".left img").should("have.attr", "alt", "Facebook logo");
@@ -15,6 +14,7 @@
 
   // Check styling
   cy.get("form")
+    .should("have.css", "background-color", "rgba(255, 255, 255, 1)") // or "rgb(255, 255, 255)"
     .should("have.css", "border-radius", "5px")
     .should("have.css", "box-shadow", "rgba(204, 204, 204, 0.5) 0px 0px 10px 0px");
   
