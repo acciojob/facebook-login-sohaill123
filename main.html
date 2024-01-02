@@ -2,22 +2,22 @@
   <head>
     <title>Facebook Login</title>
   </head>
-  <body>
-    <!-- Write your code here -->
-	   <div class="container">
-    <div class="left">
+  <body style="background-color: #f6f6f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+
+  <div class="container" style="display: flex; justify-content: space-between;">
+    <div class="left" style="width: 450px; margin-top: 70px; display: inline-block;">
       <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook logo">
       <p>Facebook helps you connect and share with the people in your life.</p>
     </div>
-    <div class="right">
-      <form style="background-color:rgb(255, 255, 255), border-radius: 5px;">
-        <input type="text" id="email" placeholder="Email address or phone number">
-        <input type="password" id="password" placeholder="Password">
-        <button type="submit">Log in</button>
-        <a href="#">Forgotten account?</a>
+    <div class="right" style="display: flex; flex-direction: column; width: 300px; background-color: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px #ccc; gap: 10px;">
+      <form style="display: flex; flex-direction: column; gap: 10px; background-color: rgb(255, 255, 255); padding: 20px; border-radius: 5px; box-shadow: 0 0 10px #ccc;">
+        <input type="text" id="email" placeholder="Email address or phone number" style="border: 1px solid #ccc; border-radius: 5px; padding: 10px;">
+        <input type="password" id="password" placeholder="Password" style="border: 1px solid #ccc; border-radius: 5px; padding: 10px;">
+        <button type="submit" style="background-color: #1877f2; border: none; border-radius: 5px; padding: 10px 20px; width: 100%; color: white; cursor: pointer;">Log in</button>
+        <a href="#" style="text-decoration: none; color: #1877f2;">Forgotten account?</a>
       </form>
-      <button class="signup">Create new account</button>
+      <button class="signup" style="background-color: #42b72a; border: none; border-radius: 5px; padding: 10px 20px; color: white; cursor: pointer;">Create new account</button>
     </div>
   </div>
-  </body>
-</html>
+
+</body></html>
